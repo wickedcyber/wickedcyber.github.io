@@ -1,1 +1,85 @@
-Hello World
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN" />
+<style media="all" type="text/css">
+@font-face { font-family: "JinBuGuoWebMono"; src: url("/d/mono.ttf") format("truetype"); }
+* { font-family: "Monospace", "Consolas", "Menlo", monospace; }
+* { line-height:1.5em; }
+</style>
+<meta name="baidu-site-verification" content="anlWGqllKm" />
+<meta name="msvalidate.01" content="8BCC04922EA50E4DFBFB72A5A1F7DC7F" />
+<title>作品集</title>
+</head>
+
+<body>
+      <div style="display: block; margin: 0 auto; width: 50%;">
+<h1 align="center">作品集</h1>
+<hr />
+
+<h2>Apache</h2>
+<ul>
+<li><a href="apache/manual/index.html">《Apache 2.2 中文手册》</a></li>
+</ul>
+
+<h2>Linux 内核</h2>
+<ul>
+<li><a href="kernel/longterm-linux-kernel-options.html">Linux-4.4-x86_64 内核配置选项简介</a></li>
+<li><a href="kernel/boot_parameters.html">Linux 内核引导选项简介</a></li>
+<li><a href="kernel/device_files.html">Linux 设备文件简介</a></li>
+<li><a href="kernel/header_story.html">[八卦故事]内核头文件传奇</a></li>
+</ul>
+
+<h2>Systemd</h2>
+<ul>
+<li><a href="systemd/systemd.index.html">《Systemd 中文手册》(v241,RHEL8,CentOS8,Debian10)</a></li>
+</ul>
+
+<h2>Linux 基础系统</h2>
+<ul>
+<li><a href="lfs/lfs62/index.html">《Linux 系统构建指南》(v6.2)</a></li>
+<li><a href="lfs/minilapp_x86.html">DIY 一个实用的 miniLAPP 服务器</a></li>
+<li><a href="linux/understand_package_install.html">深入理解软件包的配置、编译与安装</a></li>
+<li><a href="linux/optimize_guide.html">GCC 编译优化指南</a></li>
+<li><a href="linux/sysklogd.html">Sysklogd 系统日志记录器</a></li>
+<li><a href="linux/dcron.html">简单、严谨、安全 —— Dcron 简介</a></li>
+<li><a href="linux/glibc_gcc_binutils.html">Glibc Binutils GCC 安装指南</a></li>
+<li><a href="linux/grub.cfg.html">GRUB2配置文件"grub.cfg"详解(GRUB2实战手册)</a></li>
+<li><a href="man/sysctl.html">sysctl 中文手册</a></li>
+<li><a href="man/sysctl.conf.html">sysctl.conf 中文手册</a></li>
+<li><a href="man/agetty.html">agetty 中文手册</a></li>
+<li><a href="man/gendiff.html">gendiff 中文手册</a></li>
+</ul>
+
+<h2>Linux 基础服务</h2>
+<ul>
+<li><a href="vsftpd/vsftpd.conf.html">vsftpd.conf 中文版</a></li>
+<li><a href="linux/openssl_install.html">OpenSSL 安装与配置</a></li>
+<li><a href="openssh/openssh_install.html">OpenSSH 安装指南</a></li>
+<li><a href="openssh/moduli.html">moduli 中文手册</a></li>
+<li><a href="openssh/ssh-keygen.html">ssh-keygen 中文手册</a></li>
+<li><a href="openssh/sshd_config.html">sshd_config 中文手册</a></li>
+<li><a href="openssh/sshd.html">sshd 中文手册</a></li>
+<li><a href="openssh/sftp-server.html">sftp-server 中文手册</a></li>
+</ul>
+
+<hr />
+ </div>
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: 'location.href', // 可选。默认为 location.href  比如我本人的就删除了
+  owner: 'wickedcyber',              //比如我的叫anTtutu
+  repo: '存储评论的 repo',                 //比如我的叫anTtutu.github.io
+  oauth: {
+    client_id: '101167c4255abda8d983',          //比如我的828***********
+    client_secret: '8a1de1e6a3c645f725decaf995c0db4b265290e7',  //比如我的49e************************
+  },
+})
+gitment.render('container')
+</script>
+</body></html>
